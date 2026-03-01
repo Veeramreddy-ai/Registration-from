@@ -6,10 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="./profile.html">
-        <input type="text">
-        <input type="password">
-        <input type="text">
+    <h2 style="background-color:lightblue; text-align:center;">
+        Login Page
+    </h2>
+
+    <form action="profile.html">
+        <fieldset>
+            <legend>Login</legend>
+
+            <label>Username:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" required><br><br>
+
+            <input type="submit" value="Login">
+        </fieldset>
     </form>
+
+    <p>
+        New user?
+        <a href="registration.html">Register here</a>
+    </p>
 </body>
 </html>

@@ -6,16 +6,36 @@
     <title>Document</title>
 </head>
 <body>
-    <h2 style="background-color: rgb(186, 12, 12);">Registration page</h2>
-    <form action="./login.html">
+    <h2 style="background-color:lightgray; text-align:center;">
+        Registration Page
+    </h2>
+
+    <form action="login.html">
         <fieldset>
-            <legend>Reg</legend>
-            <input type="text" required>
-            <input type="Email" required>
-            <input type="text">
-            <input type="password" required>
-            <input type="conform password" required>
+            <legend>Register Here</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Username:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" required><br><br>
+
+            <label>Confirm Password:</label><br>
+            <input type="password" required><br><br>
+
+            <input type="submit" value="Register">
         </fieldset>
     </form>
+
+    <p>
+        Already registered?
+        <a href="login.html">Login here</a>
+    </p>
 </body>
 </html>
